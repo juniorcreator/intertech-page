@@ -1,0 +1,35 @@
+.s-header {
+  background-color: #fff;
+  padding-bottom: 80px;
+  @include sm_769 {
+    padding-bottom: 30px;
+  }
+}
+.s-links {
+  padding-bottom: 96px;
+  padding-top: 40px;
+  @include xs_540 {
+    padding-bottom: 40px;
+  }
+}
+.s-projects {
+  padding-bottom: 100px;
+  @include xs_540 {
+    padding-bottom: 40px;
+  }
+}
+.s-projects, .s-links {
+  background-color: #f6f6f6;
+  margin: 0 -15px;
+  .content {
+    padding: 0 15px;
+  }
+}
+
+.s-footer {
+  background-color: #171717;
+  margin: 0 -15px;
+  .content {
+    padding: 0 15px;
+  }
+}

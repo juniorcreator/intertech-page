@@ -1,0 +1,17 @@
+.btn {
+  display: inline-block;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Myriad-pro";
+  transition: background .3s, color .3s;
+  position: relative;
+  cursor: pointer;
+  padding: 16px 30px 14px 17px;
+  text-align: center;
+  min-width: 226px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+}
